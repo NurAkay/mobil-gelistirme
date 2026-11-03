@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+*.log
+
+# Environment variables (gizli bilgiler)
+.env
+*.env
+
+# Flutter / Dart
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.gradle
+.gradle/
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# macOS
+.DS_Store
+
+# Keystore (asla paylaşma!)
+*.keystore
+*.jks
+key.properties

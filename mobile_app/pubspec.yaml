@@ -1,0 +1,16 @@
+name: mobile_app
+description: Kisi Yonetim Sistemi (Flutter + Django REST)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0          # REST istekleri (GET, POST, PUT, DELETE) için
+  url_launcher: ^6.3.0  # telefon arama ve e-posta uygulamasını açmak için
+
+flutter:
+  uses-material-design: true
