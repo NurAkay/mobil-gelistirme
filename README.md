@@ -91,22 +91,5 @@ flutter build apk --release
 6. Detayda **DÜZENLE** ile bilgi değiştir, kaydet, detayda güncellenmiş görünmeli.
 7. **KİŞİYİ SİL** -> onay diyaloğu -> Evet -> listeye dönülür, kişi yok olmalı.
 
-## 5) GitHub'a Yükleme
-```bash
-git init
-git add .
-git commit -m "Kisi Yonetim Sistemi"
-git branch -M main
-git remote add origin <REPO_LINKI>
-git push -u origin main
-```
 
 
-https://picsum.photos/seed/ahmet/300
-https://picsum.photos/seed/ayse/300
-https://picsum.photos/seed/mehmet/300
-
-
-
-cd mobile_app
-flutter run -d emulator-5554
